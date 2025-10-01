@@ -34,7 +34,7 @@ public:
    */
   void setup()
   {
-    //Serial.println("Hello from my usermod!");
+    Serial.println("Hello from my usermod!");
     pinMode(pins[0], INPUT_PULLUP);
     pinMode(pins[1], INPUT_PULLUP);
     if(pins[2] >= 0) pinMode(pins[2], INPUT_PULLUP);
