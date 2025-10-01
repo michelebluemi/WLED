@@ -56,7 +56,7 @@ public:
   {
     currentTime = millis(); // get the current elapsed time
 
-    if (currentTime >= (loopTime + 2)) // 2ms since last check of encoder = 500Hz
+    if (currentTime >= (loopTime + 1)) // 1ms since last check of encoder = 500Hz
     {
       if(pins[2] >= 0) {
         button_state = digitalRead(pins[2]);
